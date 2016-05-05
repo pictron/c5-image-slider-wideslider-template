@@ -1,0 +1,70 @@
+/*! full wide slider */
+
+.wideslider {
+  width: 100%;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+  overflow-y: show; }
+  .wideslider ul {
+    float: left;
+    display: inline;
+    overflow: hidden;
+    padding: 0; }
+    .wideslider ul li {
+      float: left;
+      display: inline;
+      overflow: hidden;
+      }
+      .wideslider ul li img {
+        width: 100%;
+        display: none; }
+
+.wideslider_base {
+  top: 0;
+  position: absolute;
+   }
+
+.wideslider_wrap {
+  top: 0;
+  position: absolute;
+  overflow: hidden;
+   }
+
+/*.slider_prev, .slider_next {
+	display: none;
+	}*/
+.slider_prev, .slider_next {
+  top: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: 100;
+  cursor: pointer; }
+
+.slider_prev {
+  background: rgba(0, 0, 0, 0.6); }
+
+.slider_next {
+  background: rgba(0, 0, 0, 0.6); }
+
+.pagination {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 15px;
+  text-align: center;
+  position: absolute;
+   }
+  .pagination a {
+    margin: 0 5px;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    overflow: hidden;
+    background: #EDEDED;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    box-shadow: inset 1px 1px 3px 0px rgba(0, 0, 0, 0.5); }
+    .pagination a.active {
+      background: #666666; }
